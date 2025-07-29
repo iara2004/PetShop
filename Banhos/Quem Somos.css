@@ -1,0 +1,119 @@
+*{												/*reseta as tags do html*/
+	 margin: 0;
+	 padding: 0;
+	 box-sizing: border-box;
+	 font-family: "Poetsen One", sans-serif;
+	}
+	
+	.container{
+		max-width: 1250px;
+		margin:  auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		}
+		
+	header{										/*personalizar o menu*/
+		background-color:  #40E0D0;
+		width: 100%;
+		padding: 7px;
+		}
+		
+	.logo, .social{								/*altera a altura*/
+		width:55% ;
+	}
+	
+	.logo img{ 									/*editar a imagem*/
+		width: 100px;
+		cursor: pointer;
+	}
+	
+	.animais{
+		display: flex;
+		justify-content: center;
+	}
+	
+	.menu{										/*editar o menu*/
+		width: 110%;
+	}
+	
+	.menu nav a{      							/* vai editar o texto do menu*/
+		color: black;
+		text-decoration: none;
+		padding-right:50px;
+		font-size: 20px;
+		position: relative;
+	}
+	
+	.menu ul li{								/*Vai colocar a lista em ordem*/
+	display: inline								
+	}
+	
+	.menu ul li a{   							/*controla o espaço entra as coisas*/
+	padding: 2px 25px;
+	}
+	
+	
+	.social button{								/*personalizar os butões(simbolos)*/
+		
+		width: 60px;
+		height: 60px;
+		background-image: black;
+		border: none;
+		border-radius: 8px;
+		cursor: pointer;
+		margin-right: 30px;
+		
+	}
+	
+	.social button i{							/*personalizar os butões(simbolos)*/
+		font-size: 30px;
+		color:fffff;
+
+	
+	
+	}
+	.drop{
+		display: none;
+		
+	}
+	
+	.drop2{
+		display: none;
+	}
+	
+	.drop-hover{    								/*personalizar o submenu*/
+		position: relative;
+		display: none;
+		
+	}
+	
+	drop-hover2{
+		position: relative;
+		display: none;
+	}
+	
+	.drop-hover:hover .drop{
+		
+		display: block;
+		position: absolute;
+		
+	}
+	
+	.texto1{
+		font-size: 25;
+		font-family: Cambria;
+	}
+	
+	.texto2{
+		font-size: 25;
+		font-family: Cambria;
+	}
+	
+	.drop{
+		background-color: #40E0D0;
+		border-radius:5px;
+		padding: 12px 13px;
+		margin-bottom: 10%;
+		
+	}
